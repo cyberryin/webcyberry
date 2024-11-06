@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Roboto', system-ui, sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', system-ui, sans-serif;
+  }
+}
+
+.tech-pattern {
+  background-image: radial-gradient(#0074D9 1px, transparent 1px);
+  background-size: 20px 20px;
+  opacity: 0.1;
+}
